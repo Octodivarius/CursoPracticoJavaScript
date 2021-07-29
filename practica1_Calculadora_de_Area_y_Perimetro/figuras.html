@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Figuras Geometricas</title>
+</head>
+<body>
+    <header class="header">
+        
+        <ul class="Menu">
+            <li class="MenuT menut2" >
+                <h1 >Figuras Geometricas</h1>
+                <p >Este es el primer taller del curso practico de JS</p>
+            </li>
+            <li class="MenuT t1" > </li>
+            <li class="MenuT t2" > </li>
+            <li class="MenuT t3"> </li>
+            <li class="MenuT t4"> </li>
+        </ul>
+    </header>
+
+    <main class="main"> 
+        <script src="./figuras.js"></script>
+        <section class="section">
+            <section class="se1">
+                <section class="se1-b1">
+                    <h2>Calculadora de un area de un Cuadrado</h2>
+                    <form class="form" action="">
+                        <div>
+                            <label for="InputCuadrado">Escriber cuandto mide cada lado de tu cuadrado</label>
+                            <input id="InputCuadrado" type="number">
+                        </div> 
+                        <div class="calcular">   
+                            <button type="button" onclick="calcularPerimetroCuadrado()">Calcular perimetro</button>
+                            <button type="button" onclick="calcularAreaCuadrado()">Calcular area</button>
+                        </div>   
+                    </form>
+                </section>
+
+                <section class="se1-b2">
+                    <h2>Calculadora de un area de un Triangulo</h2>
+                    <form  class="form" action="">
+                        <div>
+                            <label for="InputLado1">Escribe cuanto mide el lado 1 del triangulo</label>
+                            <input id="InputLado1" type="number">
+                        </div>
+                        <div>  
+                            <label for="InputLado2">Escribe cuanto mide el lado 2 del triangulo</label>
+                            <input id="InputLado2" type="number">
+                        </div>
+                        <div>         
+                            <label for="InputLadoh">Escribe cuanto mide la altura del triangulo</label>
+                            <input id="InputLadoh" type="number">
+                        </div>
+                        <div>
+                            <label for="InputLadob">Escribe cuanto mide la base del triangulo</label>
+                            <input id="InputLadob" type="number">
+                        </div>
+                        <div class="calcular">
+                            <button type="button" onclick="calcularPerimetroTriangulo()">Calcular perimetro</button>
+                            <button type="button" onclick="calcularAreaTriangulo()">Calcular area</button>
+                        </div>
+
+                    </form>
+                </section>
+            </section>    
+            <section class="se2">
+                <section class="se2-b1">
+                    <h2>Calculadora de un area de un Circulo</h2>
+                    <form class="form" action="">
+                        <div>
+                            <label for="InputR">Escribir cuanto mide el radio del circulo</label>
+                            <input id="InputR" type="number">
+                        </div>
+                        <div class="calcular">
+                            <button type="button" onclick="calcularPerimetroCirculo()">Calcular perimetro</button>
+                            <button type="button" onclick="calcularAreaCirculo()">Calcular area</button>
+                        </div>        
+                    </form>
+                </section>
+                <section class="se2-b1">
+                    <h2>Calculadora de un area de un triangulo Isoceles</h2>
+                    <form class="form" action="">
+                        <div>
+                            <label for="InputA">Escribir cuanto mide uno de los lado del triangulo isoceles</label>
+                            <input id="InputA" type="number">
+                        </div>
+                        <div>    
+                            <label for="InputBa">Escribir cuanto mide la base del trinagulo isoceles</label>
+                            <input id="InputBa" type="number">
+                        </div>
+                        <div class="calcular">
+                            <button type="button" onclick="calcularPerimetroCuadrado()">Calcular perimetro</button>
+                            <button type="button" onclick="calcularAreaCuadrado()">Calcular area</button>
+                        </div>        
+                    </form>
+                </section>
+            </section>
+        </section>
+        
+    </main>
+    <footer class="footer">
+        <div>
+            leo
+        </div>
+
+    </footer>
+    
+</main>
+</html>
