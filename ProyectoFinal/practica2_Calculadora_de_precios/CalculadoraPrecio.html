@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Porcentajes y descuentos | Curso Práctico de JavaScript en Platzi</title>
+</head>
+<body>
+  <header class="header">
+        
+    <ul class="Menu">
+        <a href="/index.html" class="MenuT menut2" > <li class="MenuT menut2" >
+            <h1 >Curso Practico JS</h1>
+            <p >Platzi JS Challenge </p>
+        </li> </a>
+        <li class="MenuT t1" > <a href="/practica1_Calculadora_de_Area_y_Perimetro/figuras.html">Figuras Geometricas</a>  </li>
+        <li class="MenuT t2" ><a href="/practica2_Calculadora_de_precios/CalculadoraPrecio.html">Calculadora de Precio</a>  </li>
+        <li class="MenuT t3"><a href="/practica3/practica3.html">Practica 3</a></li>
+        <li class="MenuT t4"><a href="/practica4/practica4.html">Practica 4</a> </li>
+    </ul>
+  </header>
+
+  <section>
+    <h2>Calcula el precio a pagar de tus productoss con descuento</h2>
+
+    <form>
+      <label for="InputPrice">Escribe el precio de tu producto:</label>
+      <input id="InputPrice" type="number" />
+
+      <label for="InputDiscount">Escribe el descuento de tu producto:</label>
+      <input id="InputDiscount" type="number" />
+
+      <button type="button" onclick="onClickButtonPriceDiscount()">
+        Calcular el precio con descuento
+      </button>
+
+      <p id="ResultP"></p>
+    </form>
+  </section>
+
+  <script src="./calculadora_precios.js"></script>
+</body>
+</html>
