@@ -21,15 +21,20 @@ body{
 }
 .Menu{
     display: flex;
+    text-decoration: none;
 }
 .MenuT{
    list-style: none;
    flex:1;
-   /* outline: 1px solid cyan; */
    text-align: center;
    line-height: 12rem;    
    transition: flex 0.5s;
-   ; 
+   text-decoration: none;
+}
+
+.MenuT a{
+    text-decoration: none;
+    color: #2B2D42;
 }
 .MenuT:hover{
 flex:1.2;  
@@ -37,6 +42,7 @@ flex:1.2;
 .menut2{
     line-height:3rem;
     background-color:#F7EC59;  
+    text-decoration: none;
 }
 .menut2:hover{
     flex:1;  
@@ -53,6 +59,7 @@ flex:1.2;
 }
 .t1{
     background-color: #6C9A8B;
+    text-decoration: none;
 }
 .t2{
     background-color: #E8998D;
@@ -86,7 +93,7 @@ flex:1.2;
   display: flex;
   height: 50%;
   width: 90%;
-  background-color: #F7EC59;
+  background-color: #6C9A8B;
   margin: 2rem 0rem 1rem 0rem; 
   justify-content: space-around;   
   align-items: center;
@@ -158,8 +165,6 @@ flex:1.2;
     justify-content: space-around;
 }
 
-
-
 .se2-b1 h2{
     width: 20%;
 }
@@ -169,15 +174,41 @@ flex:1.2;
 
 }
 
+.Result-c{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    margin: 1rem;
+}
 
+.Result{
+    background-color: #6C9A8B;
+    margin: 1rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    border-radius: 3rem;
+    margin-left: 0rem;
+    align-items: center;
+    height: 3rem;
+    width: 80%;
 
-
-
-
+}
 
 .footer{
-    background-color: #6C9A8B;
+    background-color: #F7EC59;
+    display: flex;
     height: 10rem;
     width: 100%;
     margin-top: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer div{
+   font-size: 2rem; 
 }
