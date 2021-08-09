@@ -31,8 +31,12 @@
               </div>
               <form class="form">
                   <div>
+                    <label for="InputProme">Escribe el codigo de promocion:</label>
+                    <input id="InputProme" type="" />
+                </div>
+                  <div>
                       <label for="InputPrice">Escribe el precio de tu producto:</label>
-                      <input id="InputPrice" type="number" />
+                      <input id="InputPrice" type="text" />
                   </div>
                   <div>
                     <label for="InputDiscount">Escribe el descuento de tu producto:</label>
@@ -41,7 +45,9 @@
                   <div>
                     <button type="button" onclick="onClickButtonPriceDiscount()">Calcular el precio con descuento</button>
                   </div>
-                  <p id="ResultP"></p>
+                  <div class="Result-c">
+                    <p id="Resultp" class="Result"></p>
+                  </div>  
               </form>
           </section>    
         </section>  
